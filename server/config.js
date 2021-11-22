@@ -237,7 +237,7 @@ const conf = convict({
   },
   footer_source_url: {
     format: String,
-    default: 'https://github.com/timvisee/send',
+    default: 'https://github.com/factor500-dev/send',
     env: 'SEND_FOOTER_SOURCE_URL'
   }
 });
