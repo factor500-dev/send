@@ -61,7 +61,7 @@ const conf = convict({
   },
   download_counts: {
     format: 'positive-int-array',
-    default: [1, 2, 3, 4, 5, 20, 50, 100],
+    default: [1, 2, 3, 4, 5, 20],
     env: 'DOWNLOAD_COUNTS'
   },
   default_downloads: {
@@ -162,7 +162,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'https://send.wycomsystems.com',
     env: 'BASE_URL'
   },
   detect_base_url: {
